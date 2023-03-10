@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Portfólio Tiago</title>
+</head>
+<body>
+  <main>
+    <div class="geralheader"> <!-- HEADER -->
+    <header>
+      <div class="nametopo">
+        <h3>Tiago Silva</h3>
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Início</a>
+            <a href="#projects">Meus Projetos</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header> 
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou Tiago</h2>
+        <span class="home-position">Front-end Developer</span>
+       <br>
+<div>
+        <button>
+          <a href="#contact">Contate-me</a>
+        </button>
+        <button>
+          <a href="https://www.linkedin.com/in/tiago-silva-8bab85263/" >Linkedin</a>
+        </button>
+</div>        
+<div> 
+  <img src="./css/imagens/logomin-removebg-preview.png" alt="foto logohcj1" class="minilogo">
+</div>
+      </div>
+      <div class="home-img">
+        <img src="./css/imagens/avatar3.png" alt="Foto de perfil">
+      </div>
+    </section>
+  </div> 
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <a href="https://bycodewd.netlify.app/"><!--aqui vc coloca o site -->
+              <img src="./css/imagens/bycode.png" alt="Foto de um site"><!--aqui a imagem-->
+              </a><!--aqui vc fecha tudo-->
+            </div>
+            <div class="project-info">
+              <h2>WebSite - Agência de Web Design</h2>
+              <p>Projeto para uma agência web design que oferece soluções digitais que ajudam a contar a história da sua marca. Desenvolvimento web | Design gráfico | Marketing digital</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <a href="https://fastphonepe.netlify.app/">
+              <img src="./css/imagens/fastprojeto2.png" alt="Foto de uma loja online">
+            </a>
+            </div>
+            <div class="project-info">
+              <h2>WebSites - Assistência Técnica</h2>
+              <p>Um projeto de web site simples para uma Assistência técnica especializada de informática e celular que tem como objetivo proporcionar aos clientes uma plataforma online fácil de usar.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./css/imagens/designergrafico.png" alt="Foto de um sistema">
+            </div>
+            <div class="project-info">
+              <h2>Designer Gráfico</h2>
+              <p>Com meus projetos de designer gráfico, busco criar soluções visuais claras e atrativas que atendam às necessidades do cliente. Minha abordagem é focada na combinação da estética com a funcionalidade, resultando em projetos inovadores e diferenciados.
+              </p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+ <!-- Sobre -->
+ <div class="geralsobre">
+ <section id="sobre">
+  <div class="sobre-img">
+    <img src="./css/imagens/fotosobre1.png" alt="Foto de perfil">
+  </div>
+  <div class="sobre-info">
+    <h1>Sobre Mim</h1>   
+    <span class="sobre-resume">
+      Olá, me chamo Tiago Silva tenho 32 anos sou Desenvolvedor Front-end , tenho habilidades com desenvolvimento web e designer gráfico , alem dessas habilidades também já atuei  na área de TI , mais me identifiquei muito na área de programação . Na programação sinto que temos a honra de oferecer e realizar grandes experiências. Por isso sinto-me capacitado, focado e  com seriedade para entregar o projeto  em tempo hábil e oferecer a melhor experiência .
+    </span>
+  </div>
+  
+</section>
+</div> 
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form action="https://formsubmit.co/tiagodev.ti@gmail.com" method="post">
+      <input type="text" placeholder="Digite seu nome" />
+      <input type="email" placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <span>Copyright © 2022 Tiago . Todos os direitos reservados.</span>
+    <br/>
+    <span>Contato: tiagodev.ti@gmail.com</span>
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
